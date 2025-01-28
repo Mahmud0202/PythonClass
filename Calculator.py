@@ -24,19 +24,21 @@ def calculator():
     elif oper == '4':
         print( num1 / num2)
     elif oper == '5':
-        print( num1 * num2) /100
+        print( num1 * num2)/100
     elif oper == '6':
         print(num1 **num2)
     elif oper == '7':
         print(num1 ** 3)
-    # elif oper =='8':
-    #     print(math.sqrt(num1))
-    calculator()
-   
+    elif oper =='8':
+        num = float(input("Введите число: "))
+    if num >= 0:
+       result = num ** 0.5
+       print(f"Квадратный корень числа {num} равен {result}")
+    else:
+        print("Ошибка: квадратный корень из отрицательного числа невозможен!")
+ 
 
-
-
-
+calculator()
 
 
 

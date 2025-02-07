@@ -4,6 +4,3 @@
 #age = '20 '  #int
 #weight = 120.0 #float
 #status = true #booltan
-
-
-

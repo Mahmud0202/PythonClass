@@ -13,4 +13,4 @@ elif score >80:
     elif homework=="нет":
         print ( "Нужно посещать занятия! Оценка: C")
 elif score <80:
-    print("Старайиесь лучше!")
+    print("Старайтесь лучше!")

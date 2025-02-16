@@ -17,7 +17,7 @@
 # min_number= numbers[0]
 
 # for num in numbers:
-#     if num > max_number:
+#     if num > max_number: 
 #          max_number = num  
 #     elif num < min_number:
 #          min_number = num
